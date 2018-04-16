@@ -20,7 +20,7 @@ cd Python-apds9960-neopixels-on-raspberry-pi
 unzip python-apds9960.zip
 unzip rpi_ws281x.git.zip
 cd python-apds9960
-sudo mv apds9960 ~/../../usr/local/lib/python2.7/dist-packages/
+sudo mv apds9960 ~/../../usr/lib/python2.7/dist-packages/
 cd ../rpi_ws281x
 scons
 ```
