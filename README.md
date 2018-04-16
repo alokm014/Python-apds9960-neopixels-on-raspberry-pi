@@ -29,8 +29,7 @@ After running the scons command above you should see the library successfully co
 cd python
 sudo python setup.py install
 ```
-Inside the examples subdirectory you can find a couple examples of using the library.
-Gesture.py is an example of using the high-level Python library which looks like the Arduino NeoPixel library. 
+Inside the Python-apds9960-neopixels-on-raspberry-pi directory you can find a Gesture.py file which using the high-level Python library which looks like the Arduino NeoPixel library. 
 ### Gesture.py Example
 run it by executing
 ```
