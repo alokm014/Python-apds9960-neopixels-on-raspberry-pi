@@ -19,9 +19,9 @@ git clone https://github.com/alokm014/Python-apds9960-neopixels-on-raspberry-pi.
 cd Python-apds9960-neopixels-on-raspberry-pi
 unzip python-apds9960-master.zip
 unzip rpi_ws281x-master.zip
-cd python-apds9960
+cd python-apds9960-master
 sudo mv apds9960 ~/../../usr/lib/python2.7/dist-packages/
-cd ../rpi_ws281x
+cd ../rpi_ws281x-master
 scons
 ```
 After running the scons command above you should see the library successfully compiled.  Next you can install the Python library by executing:
